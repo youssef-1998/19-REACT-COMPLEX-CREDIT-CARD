@@ -1,0 +1,109 @@
+
+@font-face {
+  font-family: 'Bungee';
+  src: url(./BungeeHairline-Regular.ttf)  format('truetype');
+}
+.card{
+  background-image: url(./background.jpg);
+  width: 505px;
+  background-size: 100% 100%;
+  border-radius: 22px;
+  padding: 30px  ;
+  color: white;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.grand-titre{
+  
+  font-size: 40px;
+  text-align: end;
+  margin: 0;
+  font-weight: 900 ;
+} 
+.puce{
+  width: 75px;
+  margin: 20px 0;
+}
+.container{
+  padding: 0;
+  margin: 0;  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.column{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  margin-right: 30px;
+}
+.num-1{
+  font-family: 'Bungee';
+  font-size: 22px;
+  color: #251b02;
+  background-color: rgba(189, 228, 18, 0.445);
+  letter-spacing: 5px; 
+  text-align: center;
+  margin: 0;
+  font-weight: 1000;
+  width: 393px;
+  /* width: 57%; */
+}
+.t-date{
+  padding: 0;
+  margin: 0;
+  align-self: flex-end;
+  font-weight: 600 ;
+  font-size: 13px;
+}
+.l-2-horizontal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.box-right{
+  display: flex;
+  align-items: center;
+}
+.validation{
+  margin: 0;
+  font-weight: 500 ;
+  line-height: 1;
+}
+.fa-caret-right{
+  align-self: center;
+  padding-left: 3px
+}
+.n-date{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 700 ;
+}
+.sous-titre{
+  margin: 0;
+  font-weight: 700 ;
+}
+.visa{
+  width: 80px;
+}
+
+/*****************************************/
+
+.all-input{
+  display: flex;
+  width: 80px;
+  /* margin-left: 40px;
+  flex-wrap: wrap;
+  margin-top: 135px;
+  height: 147px; */
+}
+.exterieur-input{
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px black;
+  margin-left: 50px;
+  margin-top: 20px;
+}
